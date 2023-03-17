@@ -1,0 +1,51 @@
+{
+  "responseId": "e19cc1a0-4196-4738-9593-344a09942d77-0504e25d",
+  "queryResult": {
+    "queryText": "N",
+    "parameters": {
+      "geo-city": "Veraval",
+      "number-integer": 44,
+      "tobacco": "No",
+      "health_insurance": "health insurance",
+      "Adult": "2 Adult And 2 Child"
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "You Looking For health insurance Your  Age is 44 With 2 Adult And 2 Child From Veraval And Tobacco Consume No . Is That Correct?",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "You Looking For health insurance Your  Age is 44 With 2 Adult And 2 Child From Veraval And Tobacco Consume No . Is That Correct?"
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/health-plus-itrb/agent/sessions/5b11b356-f9d8-f2ff-afb7-92493cbe6fef/contexts/insurance_context-followup",
+        "lifespanCount": 5,
+        "parameters": {
+          "geo-city.original": "veraval",
+          "tobacco": "No",
+          "geo-city": "Veraval",
+          "Adult": "2 Adult And 2 Child",
+          "Adult.original": "2 Adult and 2 Child",
+          "tobacco.original": "N",
+          "health_insurance.original": "health insurance",
+          "number-integer": 44,
+          "number-integer.original": "44",
+          "health_insurance": "health insurance"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/health-plus-itrb/agent/intents/e7bf322e-c058-4ba5-ae5f-08767f680207",
+      "displayName": "insurance_context"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en",
+    "sentimentAnalysisResult": {
+      "queryTextSentiment": {}
+    }
+  }
+}
